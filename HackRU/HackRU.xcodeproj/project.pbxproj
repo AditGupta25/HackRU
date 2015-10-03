@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					C9B0AAB01BC03B4600C940BB = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4KXQ867ZZR;
 					};
 					C9B0AAC41BC03B4600C940BB = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -398,10 +399,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20150910",
+				);
 				INFOPLIST_FILE = HackRU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AditGupta.HackRU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +417,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20150910",
+				);
 				INFOPLIST_FILE = HackRU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AditGupta.HackRU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +498,7 @@
 				C9B0AADB1BC03B4600C940BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9B0AADC1BC03B4600C940BB /* Build configuration list for PBXNativeTarget "HackRUTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +507,7 @@
 				C9B0AADE1BC03B4600C940BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9B0AADF1BC03B4600C940BB /* Build configuration list for PBXNativeTarget "HackRUUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +516,7 @@
 				C9B0AAE11BC03B4600C940BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
