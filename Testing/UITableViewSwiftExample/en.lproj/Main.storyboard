@@ -72,11 +72,7 @@
                             <constraint firstItem="ZfD-HA-10H" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-44" id="jEV-Eg-Wqj"/>
                         </constraints>
                     </view>
-<<<<<<< HEAD
-                    <navigationItem key="navigationItem" title="MLH Pro" id="4ei-C3-p2e" propertyAccessControl="all"/>
-=======
                     <navigationItem key="navigationItem" title="MLH Pro" id="4ei-C3-p2e" userLabel="MLH Pro"/>
->>>>>>> 7c01e50845937b6c553c1cbb1f19b9119fcb07a1
                     <connections>
                         <outlet property="tableViewObject" destination="ZfD-HA-10H" id="Jxs-ia-hEw"/>
                     </connections>

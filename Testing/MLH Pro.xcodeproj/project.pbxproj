@@ -401,6 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackru.local;
 				PRODUCT_NAME = "MLH Pro";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackru.local;
 				PRODUCT_NAME = "MLH Pro";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
