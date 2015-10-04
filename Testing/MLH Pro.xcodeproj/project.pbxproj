@@ -16,7 +16,6 @@
 		C9F961A71BC0E183006294A1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9619B1BC0E183006294A1 /* image1.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961A81BC0E183006294A1 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9619C1BC0E183006294A1 /* image2.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961A91BC0E183006294A1 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9619D1BC0E183006294A1 /* image3.png */; settings = {ASSET_TAGS = (); }; };
-		C9F961AA1BC0E183006294A1 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9619E1BC0E183006294A1 /* image4.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961AB1BC0E183006294A1 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9619F1BC0E183006294A1 /* image5.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961AC1BC0E183006294A1 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F961A01BC0E183006294A1 /* image6.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961AD1BC0E183006294A1 /* image7.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F961A11BC0E183006294A1 /* image7.png */; settings = {ASSET_TAGS = (); }; };
@@ -26,6 +25,7 @@
 		C9F961B11BC0E183006294A1 /* image11.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F961A51BC0E183006294A1 /* image11.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961B21BC0E183006294A1 /* image12.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F961A61BC0E183006294A1 /* image12.png */; settings = {ASSET_TAGS = (); }; };
 		C9F961B41BC0E7AE006294A1 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F961B31BC0E7AE006294A1 /* DetailedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F18040611BC0FAED0003315D /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = F18040601BC0FAED0003315D /* image4.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		352CC1F41A8DD0B000D1655E /* UITableViewSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		352CC1F41A8DD0B000D1655E /* MLH Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MLH Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		352CC1F81A8DD0B000D1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352CC1F91A8DD0B000D1655E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		352CC1FB1A8DD0B000D1655E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		352CC2001A8DD0B000D1655E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		352CC2091A8DD0B000D1655E /* UITableViewSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		352CC2091A8DD0B000D1655E /* MLH Pro.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MLH Pro.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		352CC20E1A8DD0B000D1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352CC20F1A8DD0B000D1655E /* UITableViewSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewSwiftExampleTests.swift; sourceTree = "<group>"; };
 		3553DEA51A92C07800FEAF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,6 @@
 		C9F9619B1BC0E183006294A1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = Images/image1.png; sourceTree = SOURCE_ROOT; };
 		C9F9619C1BC0E183006294A1 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = Images/image2.png; sourceTree = SOURCE_ROOT; };
 		C9F9619D1BC0E183006294A1 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = Images/image3.png; sourceTree = SOURCE_ROOT; };
-		C9F9619E1BC0E183006294A1 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image4.png; path = Images/image4.png; sourceTree = SOURCE_ROOT; };
 		C9F9619F1BC0E183006294A1 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image5.png; path = Images/image5.png; sourceTree = SOURCE_ROOT; };
 		C9F961A01BC0E183006294A1 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image6.png; path = Images/image6.png; sourceTree = SOURCE_ROOT; };
 		C9F961A11BC0E183006294A1 /* image7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image7.png; path = Images/image7.png; sourceTree = SOURCE_ROOT; };
@@ -62,6 +61,7 @@
 		C9F961A51BC0E183006294A1 /* image11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image11.png; path = Images/image11.png; sourceTree = SOURCE_ROOT; };
 		C9F961A61BC0E183006294A1 /* image12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image12.png; path = Images/image12.png; sourceTree = SOURCE_ROOT; };
 		C9F961B31BC0E7AE006294A1 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		F18040601BC0FAED0003315D /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		352CC1EB1A8DD0B000D1655E = {
 			isa = PBXGroup;
 			children = (
-				352CC1F61A8DD0B000D1655E /* UITableViewSwiftExample */,
-				352CC20C1A8DD0B000D1655E /* UITableViewSwiftExampleTests */,
+				352CC1F61A8DD0B000D1655E /* MLHPr-Main */,
+				352CC20C1A8DD0B000D1655E /* MLHPro-MainTests */,
 				352CC1F51A8DD0B000D1655E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,13 +94,13 @@
 		352CC1F51A8DD0B000D1655E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				352CC1F41A8DD0B000D1655E /* UITableViewSwiftExample.app */,
-				352CC2091A8DD0B000D1655E /* UITableViewSwiftExampleTests.xctest */,
+				352CC1F41A8DD0B000D1655E /* MLH Pro.app */,
+				352CC2091A8DD0B000D1655E /* MLH Pro.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		352CC1F61A8DD0B000D1655E /* UITableViewSwiftExample */ = {
+		352CC1F61A8DD0B000D1655E /* MLHPr-Main */ = {
 			isa = PBXGroup;
 			children = (
 				352CC1F91A8DD0B000D1655E /* AppDelegate.swift */,
@@ -111,6 +111,7 @@
 				3553DE9E1A92BFAD00FEAF9D /* LaunchScreen.xib */,
 				352CC1F71A8DD0B000D1655E /* Supporting Files */,
 			);
+			name = "MLHPr-Main";
 			path = UITableViewSwiftExample;
 			sourceTree = "<group>";
 		};
@@ -120,7 +121,7 @@
 				C9F9619B1BC0E183006294A1 /* image1.png */,
 				C9F9619C1BC0E183006294A1 /* image2.png */,
 				C9F9619D1BC0E183006294A1 /* image3.png */,
-				C9F9619E1BC0E183006294A1 /* image4.png */,
+				F18040601BC0FAED0003315D /* image4.png */,
 				C9F9619F1BC0E183006294A1 /* image5.png */,
 				C9F961A01BC0E183006294A1 /* image6.png */,
 				C9F961A11BC0E183006294A1 /* image7.png */,
@@ -134,12 +135,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		352CC20C1A8DD0B000D1655E /* UITableViewSwiftExampleTests */ = {
+		352CC20C1A8DD0B000D1655E /* MLHPro-MainTests */ = {
 			isa = PBXGroup;
 			children = (
 				352CC20F1A8DD0B000D1655E /* UITableViewSwiftExampleTests.swift */,
 				352CC20D1A8DD0B000D1655E /* Supporting Files */,
 			);
+			name = "MLHPro-MainTests";
 			path = UITableViewSwiftExampleTests;
 			sourceTree = "<group>";
 		};
@@ -154,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		352CC1F31A8DD0B000D1655E /* UITableViewSwiftExample */ = {
+		352CC1F31A8DD0B000D1655E /* MLH Pro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 352CC2131A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "UITableViewSwiftExample" */;
+			buildConfigurationList = 352CC2131A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "MLH Pro" */;
 			buildPhases = (
 				352CC1F01A8DD0B000D1655E /* Sources */,
 				352CC1F11A8DD0B000D1655E /* Frameworks */,
@@ -166,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = UITableViewSwiftExample;
+			name = "MLH Pro";
 			productName = UITableViewSwiftExample;
-			productReference = 352CC1F41A8DD0B000D1655E /* UITableViewSwiftExample.app */;
+			productReference = 352CC1F41A8DD0B000D1655E /* MLH Pro.app */;
 			productType = "com.apple.product-type.application";
 		};
-		352CC2081A8DD0B000D1655E /* UITableViewSwiftExampleTests */ = {
+		352CC2081A8DD0B000D1655E /* MLH ProTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 352CC2161A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "UITableViewSwiftExampleTests" */;
+			buildConfigurationList = 352CC2161A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "MLH ProTests" */;
 			buildPhases = (
 				352CC2051A8DD0B000D1655E /* Sources */,
 				352CC2061A8DD0B000D1655E /* Frameworks */,
@@ -184,9 +186,9 @@
 			dependencies = (
 				352CC20B1A8DD0B000D1655E /* PBXTargetDependency */,
 			);
-			name = UITableViewSwiftExampleTests;
+			name = "MLH ProTests";
 			productName = UITableViewSwiftExampleTests;
-			productReference = 352CC2091A8DD0B000D1655E /* UITableViewSwiftExampleTests.xctest */;
+			productReference = 352CC2091A8DD0B000D1655E /* MLH Pro.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,6 +203,7 @@
 				TargetAttributes = {
 					352CC1F31A8DD0B000D1655E = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = PQU67KAZXS;
 					};
 					352CC2081A8DD0B000D1655E = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -208,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 352CC1EF1A8DD0B000D1655E /* Build configuration list for PBXProject "UITableViewSwiftExample" */;
+			buildConfigurationList = 352CC1EF1A8DD0B000D1655E /* Build configuration list for PBXProject "MLH Pro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				352CC1F31A8DD0B000D1655E /* UITableViewSwiftExample */,
-				352CC2081A8DD0B000D1655E /* UITableViewSwiftExampleTests */,
+				352CC1F31A8DD0B000D1655E /* MLH Pro */,
+				352CC2081A8DD0B000D1655E /* MLH ProTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,11 +241,11 @@
 				C9F961AD1BC0E183006294A1 /* image7.png in Resources */,
 				C9F961AC1BC0E183006294A1 /* image6.png in Resources */,
 				C9F961AE1BC0E183006294A1 /* image8.png in Resources */,
+				F18040611BC0FAED0003315D /* image4.png in Resources */,
 				C9F961A91BC0E183006294A1 /* image3.png in Resources */,
 				C9F961A81BC0E183006294A1 /* image2.png in Resources */,
 				C9F961A71BC0E183006294A1 /* image1.png in Resources */,
 				C9F961B11BC0E183006294A1 /* image11.png in Resources */,
-				C9F961AA1BC0E183006294A1 /* image4.png in Resources */,
 				C9F961B21BC0E183006294A1 /* image12.png in Resources */,
 				C9F961AB1BC0E183006294A1 /* image5.png in Resources */,
 				3553DEA61A92C08500FEAF9D /* Main.storyboard in Resources */,
@@ -283,7 +286,7 @@
 /* Begin PBXTargetDependency section */
 		352CC20B1A8DD0B000D1655E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 352CC1F31A8DD0B000D1655E /* UITableViewSwiftExample */;
+			target = 352CC1F31A8DD0B000D1655E /* MLH Pro */;
 			targetProxy = 352CC20A1A8DD0B000D1655E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,10 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UITableViewSwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AditGupta;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackru.local;
+				PRODUCT_NAME = "MLH Pro";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -401,10 +408,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UITableViewSwiftExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AditGupta;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackru.local;
+				PRODUCT_NAME = "MLH Pro";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -423,8 +434,8 @@
 				INFOPLIST_FILE = UITableViewSwiftExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makemegeek.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewSwiftExample.app/UITableViewSwiftExample";
+				PRODUCT_NAME = "MLH Pro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLH Pro.app/MLH Pro";
 			};
 			name = Debug;
 		};
@@ -439,15 +450,15 @@
 				INFOPLIST_FILE = UITableViewSwiftExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makemegeek.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableViewSwiftExample.app/UITableViewSwiftExample";
+				PRODUCT_NAME = "MLH Pro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLH Pro.app/MLH Pro";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		352CC1EF1A8DD0B000D1655E /* Build configuration list for PBXProject "UITableViewSwiftExample" */ = {
+		352CC1EF1A8DD0B000D1655E /* Build configuration list for PBXProject "MLH Pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				352CC2111A8DD0B000D1655E /* Debug */,
@@ -456,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		352CC2131A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "UITableViewSwiftExample" */ = {
+		352CC2131A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "MLH Pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				352CC2141A8DD0B000D1655E /* Debug */,
@@ -465,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		352CC2161A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "UITableViewSwiftExampleTests" */ = {
+		352CC2161A8DD0B000D1655E /* Build configuration list for PBXNativeTarget "MLH ProTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				352CC2171A8DD0B000D1655E /* Debug */,

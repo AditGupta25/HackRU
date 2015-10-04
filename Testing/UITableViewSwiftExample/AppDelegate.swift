@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  UITableViewSwiftExample
-//
-//  Created by Mani Shankar on 12/02/15.
-//  Copyright (c) 2015 makemegeek. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

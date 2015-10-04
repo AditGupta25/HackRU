@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UITableViewSwiftExample.xcodeproj">
+      location = "self:/Users/adamwolf/Desktop/HackRU/Testing/MLH Pro.xcodeproj">
    </FileRef>
 </Workspace>
