@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-259" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--MLH Pro-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UITableViewSwiftExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,7 +72,7 @@
                             <constraint firstItem="ZfD-HA-10H" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-44" id="jEV-Eg-Wqj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="4ei-C3-p2e"/>
+                    <navigationItem key="navigationItem" title="MLH Pro" id="4ei-C3-p2e" propertyAccessControl="all"/>
                     <connections>
                         <outlet property="tableViewObject" destination="ZfD-HA-10H" id="Jxs-ia-hEw"/>
                     </connections>
@@ -92,9 +92,38 @@
                     <view key="view" contentMode="scaleToFill" id="qbx-Bh-qal">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="26m-jL-Xx9">
+                                <rect key="frame" x="180" y="336" width="240" height="264"/>
+                                <animations/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dh6-cU-jXQ">
+                                <rect key="frame" x="180" y="80" width="240" height="240"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="p4B-Bf-GCB"/>
+                                    <constraint firstAttribute="height" constant="240" id="zoJ-CN-XIB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dh6-cU-jXQ" firstAttribute="centerX" secondItem="qbx-Bh-qal" secondAttribute="centerX" id="5Cl-3O-69v"/>
+                            <constraint firstItem="g0S-RJ-Hok" firstAttribute="top" secondItem="26m-jL-Xx9" secondAttribute="bottom" constant="8" symbolic="YES" id="Ljj-oE-Jd4"/>
+                            <constraint firstItem="26m-jL-Xx9" firstAttribute="trailing" secondItem="Dh6-cU-jXQ" secondAttribute="trailing" id="crp-1G-HuM"/>
+                            <constraint firstItem="26m-jL-Xx9" firstAttribute="leading" secondItem="Dh6-cU-jXQ" secondAttribute="leading" id="etL-fL-fkW"/>
+                            <constraint firstItem="Dh6-cU-jXQ" firstAttribute="top" secondItem="mh5-fs-W9x" secondAttribute="bottom" constant="16" id="jKR-GE-6gp"/>
+                            <constraint firstItem="26m-jL-Xx9" firstAttribute="top" secondItem="Dh6-cU-jXQ" secondAttribute="bottom" constant="8" symbolic="YES" id="tdI-es-hcd"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Dh6-cU-jXQ" id="J6g-Hq-EnU"/>
+                        <outlet property="textView" destination="26m-jL-Xx9" id="9rO-B2-1Y3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7s-Iy-jml" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

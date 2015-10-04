@@ -9,10 +9,12 @@
 import UIKit
 
 class DetailedViewController: UIViewController {
-
+    var image: UIImage!
+    var text: String!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.imageView.image = image
+        self.textView.text = text
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +23,14 @@ class DetailedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
 
+    @IBOutlet weak var textView: UITextView!
+    
+    
+    
     /*
     // MARK: - Navigation
 

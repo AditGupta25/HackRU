@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBOutlet weak var tableViewObject: UITableView!
-    var foodNames: [String] = ["CalHacks","HackNC","Kent Hack Enough","Changemaker Day Hackathon","LocalHackDay","BoilerMake","DubHacks","HackNJIT", "Technica", "HackHarvard", "HackPrinceton", "HackColima"];
-    var foodImages: [String] = ["image1", "image2", "image3","image4","image5","image6","image7","image8", "image9", "image10", "image11", "image12"];
+    let foodNames: [String] = ["CalHacks","HackNC","Kent Hack Enough","Changemaker Day Hackathon","LocalHackDay","BoilerMake","DubHacks","HackNJIT", "Technica", "HackHarvard", "HackPrinceton", "HackColima"];
+    let foodImages: [String] = ["image1", "image2", "image3","image4","image5","image6","image7","image8", "image9", "image10", "image11", "image12"];
+    
+    
     
     var selectedIndex: Int = 0
     
@@ -49,12 +51,19 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         if segue.identifier=="showDetails"
         {
-            let name = foodImages[selectedIndex]
+            let name = foodNames[selectedIndex]
             let imageName = foodImages[selectedIndex]
             let destination = segue.destinationViewController as! DetailedViewController
             //Customization
+            let image = UIImage(named: imageName)
+            destination.image = image
+            destination.text = name
+            
+        
         }
         
     }
 }
+
+
 
