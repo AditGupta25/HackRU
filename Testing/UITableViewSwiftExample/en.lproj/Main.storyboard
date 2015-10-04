@@ -31,6 +31,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" button="YES"/>
+                                        </accessibility>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -49,7 +52,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="339"/>
+            <point key="canvasLocation" x="321" y="389"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vy9-7k-zEj">
+            <objects>
+                <viewController id="VuC-Co-fH2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mh5-fs-W9x"/>
+                        <viewControllerLayoutGuide type="bottom" id="g0S-RJ-Hok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qbx-Bh-qal">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7s-Iy-jml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="389"/>
         </scene>
     </scenes>
 </document>
