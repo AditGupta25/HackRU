@@ -6,11 +6,11 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Main Controller-->
         <scene sceneID="TOb-Nv-9Mv">
             <objects>
-                <navigationController id="6kg-jI-Uoa" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hfF-gs-VFh">
+                <navigationController title="MLH Pro" id="6kg-jI-Uoa" userLabel="Main Controller" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hfF-gs-VFh" userLabel="MLH Pro NavBar">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-259" y="397"/>
         </scene>
-        <!--View Controller-->
+        <!--MLH Pro-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="UITableViewSwiftExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                                         <rect key="frame" x="0.0" y="86" width="599" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pFW-pM-ANc" id="elA-4V-O1c">
-                                            <rect key="frame" x="0.0" y="0.0" width="599" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="599" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -72,7 +72,7 @@
                             <constraint firstItem="ZfD-HA-10H" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-44" id="jEV-Eg-Wqj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="4ei-C3-p2e"/>
+                    <navigationItem key="navigationItem" title="MLH Pro" id="4ei-C3-p2e" userLabel="MLH Pro"/>
                     <connections>
                         <outlet property="tableViewObject" destination="ZfD-HA-10H" id="Jxs-ia-hEw"/>
                     </connections>
