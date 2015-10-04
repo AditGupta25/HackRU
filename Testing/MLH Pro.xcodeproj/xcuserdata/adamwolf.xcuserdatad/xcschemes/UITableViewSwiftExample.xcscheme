@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "352CC1F31A8DD0B000D1655E"
-               BuildableName = "UITableViewSwiftExample.app"
-               BlueprintName = "UITableViewSwiftExample"
-               ReferencedContainer = "container:UITableViewSwiftExample.xcodeproj">
+               BuildableName = "MLHPro-Proj.app"
+               BlueprintName = "MLH Pro"
+               ReferencedContainer = "container:MLH Pro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "352CC2081A8DD0B000D1655E"
-               BuildableName = "UITableViewSwiftExampleTests.xctest"
-               BlueprintName = "UITableViewSwiftExampleTests"
-               ReferencedContainer = "container:UITableViewSwiftExample.xcodeproj">
+               BuildableName = "MLH Pro.xctest"
+               BlueprintName = "MLH ProTests"
+               ReferencedContainer = "container:MLH Pro.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "352CC1F31A8DD0B000D1655E"
-            BuildableName = "UITableViewSwiftExample.app"
-            BlueprintName = "UITableViewSwiftExample"
-            ReferencedContainer = "container:UITableViewSwiftExample.xcodeproj">
+            BuildableName = "MLHPro-Proj.app"
+            BlueprintName = "MLH Pro"
+            ReferencedContainer = "container:MLH Pro.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "352CC1F31A8DD0B000D1655E"
-            BuildableName = "UITableViewSwiftExample.app"
-            BlueprintName = "UITableViewSwiftExample"
-            ReferencedContainer = "container:UITableViewSwiftExample.xcodeproj">
+            BuildableName = "MLHPro-Proj.app"
+            BlueprintName = "MLH Pro"
+            ReferencedContainer = "container:MLH Pro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "352CC1F31A8DD0B000D1655E"
-            BuildableName = "UITableViewSwiftExample.app"
-            BlueprintName = "UITableViewSwiftExample"
-            ReferencedContainer = "container:UITableViewSwiftExample.xcodeproj">
+            BuildableName = "MLHPro-Proj.app"
+            BlueprintName = "MLH Pro"
+            ReferencedContainer = "container:MLH Pro.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
