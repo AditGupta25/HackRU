@@ -14,12 +14,18 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     var foodNames: [String] = ["CalHacks","HackNC","Kent Hack Enough","Changemaker Day Hackathon","LocalHackDay","BoilerMake","DubHacks","HackNJIT", "Technica", "HackHarvard", "HackPrinceton", "HackColima"];
     var foodImages: [String] = ["image1", "image2", "image3","image4","image5","image6","image7","image8", "image9", "image10", "image11", "image12"];
     
+    var selectedIndex: Int = 0
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return foodNames.count
     }
     
-    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        selectedIndex = indexPath.row
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        self.performSegueWithIdentifier("showDetails", sender: nil)
+    }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
@@ -37,6 +43,18 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     {
         super.viewDidLoad()
 //        self.tableViewObject.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier=="showDetails"
+        {
+            let name = foodImages[selectedIndex]
+            let imageName = foodImages[selectedIndex]
+            let destination = segue.destinationViewController as! DetailedViewController
+            //Customization
+        }
+        
     }
 }
 
